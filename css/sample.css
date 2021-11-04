@@ -1,27 +1,21 @@
 body{
     margin:0;
     padding:0;
-    text-align:left;
+    background-color: paleturquoise;
     font-size: 32px;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 header{
-    width: 100%;
-    height: 400px;
-    background: url(../どらがおじゃんけん/表紙.jpg)no-repeat;
-    background-position: center;
-    background-color: #fff;
-    background-size: 70%;
-    border-bottom: 1px solid #ccc;
-    text-align: center;
+    display: flex;
+    justify-content: center; 
 }
 main{
     border-bottom:1px solid #ccc;
     width: 100%;
 }
 footer{
-    background-color: #fff;
+    background-color: paleturquoise;
     border-bottom:1px solid #ccc;
     text-align: center;
 }
