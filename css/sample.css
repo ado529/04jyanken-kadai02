@@ -48,6 +48,10 @@ li img{
     display: flex;
 }
 
+#gu_btn,#cho_btn,#par_btn{
+    position: relative;
+}
+
 li:hover{
     background: #FFF;
     color:#fff;
