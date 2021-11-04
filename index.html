@@ -15,7 +15,7 @@
       </div>
     </header>
     
-    <main>
+    <main class="main">
       <ul>
         <li id="gu_btn"><img src="img/../どらがおじゃんけん/どらがおグー.jpg" alt=""></li>
         <li id="cho_btn"><img src="img/../どらがおじゃんけん/どらがおチョキ.jpg" alt=""></li>
@@ -26,7 +26,9 @@
     </main>
   
 
-  <footer>フッター</footer>
+  <footer>
+    copyrights doragaorp All RIghts Reserved.
+</footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
@@ -37,16 +39,16 @@
 
       if(comp==0){
         $("#com_hand").html('<img src="img/../どらがおじゃんけん/グードラミ.png" alt="">');
-        $("#result").text("あいこ");
+        $("#result").text("あいこ 10点獲得");
 
       }
       else if(comp==1){
         $("#com_hand").html('<img src="img/../どらがおじゃんけん/チョキのびた.jpg" alt="">');
-        $("#result").text("ドラえもんの勝ち");
+        $("#result").text("ドラえもんの勝ち 20点獲得");
       }
       else if (comp == 2) {
         $("#com_hand").html('<img src="img/../どらがおじゃんけん/パーしずか.jpg" alt="">');
-        $("#result").text("しずかちゃんの勝ち");
+        $("#result").text("しずかちゃんの勝ち 残念０点");
       }
     });
   
@@ -56,15 +58,15 @@
     
       if (comp == 0) {
         $("#com_hand").html('<img src="img/../どらがおじゃんけん/グードラミ.png" alt="">');
-        $("#result").text("ドラミちゃんの勝ち");
+        $("#result").text("ドラミちゃんの勝ち 残念０点");
       }
       else if (comp == 1) {
         $("#com_hand").html('<img src="img/../どらがおじゃんけん/チョキのびた.jpg" alt="">');
-        $("#result").text("あいこ");
+        $("#result").text("あいこ 10点獲得");
       }
       else if (comp == 2) {
         $("#com_hand").html('<img src="img/../どらがおじゃんけん/パーしずか.jpg" alt="">');
-        $("#result").text("ドラえもんの勝ち");
+        $("#result").text("ドラえもんの勝ち 20点獲得");
       }
       });
 
@@ -74,16 +76,16 @@
 
       if (comp == 0) {
         $("#com_hand").html('<img src="img/../どらがおじゃんけん/グードラミ.png" alt="">');
-        $("#result").text("ドラえもんの勝ち");
+        $("#result").text("ドラえもんの勝ち 20点獲得");
 
       }
       else if (comp == 1) {
         $("#com_hand").html('<img src="img/../どらがおじゃんけん/チョキのびた.jpg" alt="">');
-        $("#result").text("のび太くんの勝ち")
+        $("#result").text("のび太くんの勝ち 残念０点")
       }
       else if (comp == 2) {
         $("#com_hand").html('<img src="img/../どらがおじゃんけん/パーしずか.jpg" alt="">');
-        $("#result").text("あいこ")
+        $("#result").text("あいこ 10点獲得")
       }
       });
 
